@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Railway from './Component/Railway';
+import Imdb from './Component/Imdb';
+import Movie from './Component/Movie';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Railway/> */}
+    <Imdb/>
   </React.StrictMode>
 );
 
